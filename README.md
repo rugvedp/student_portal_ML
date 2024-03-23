@@ -16,12 +16,6 @@ This project aims to predict the future job/scope for students based on various 
     git clone https://github.com/rugvedp/student_portal_ML
     ```
 
-2. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 1. Prepare your dataset containing relevant information about students' academics, internships, interests, and past work experiences.
 
