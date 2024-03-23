@@ -1,0 +1,281 @@
+Student ID,Name,Gender,Age,GPA,Major,Interested Domain,Projects,Future Career
+1,John Smith,Male,21,3.5,Computer Science,Artificial Intelligence,Chatbot Development,Machine Learning Researcher
+2,Alice Johnson,Female,20,3.2,Computer Science,Data Science,Data Analytics,Data Scientist
+3,Robert Davis,Male,22,3.8,Computer Science,Software Development,E-commerce Website,Software Engineer
+4,Emily Wilson,Female,21,3.7,Computer Science,Web Development,Full-Stack Web App,Web Developer
+5,Michael Brown,Male,23,3.4,Computer Science,Cybersecurity,Network Security,Information Security Analyst
+6,Laura Lee,Female,22,3.9,Computer Science,Machine Learning,Image Recognition,Machine Learning Engineer
+7,William Johnson,Male,20,3.6,Computer Science,Database Management,SQL Query Optimization,Database Administrator
+8,Sarah Miller,Female,21,3.7,Computer Science,Cloud Computing,AWS Deployment,Cloud Solutions Architect
+9,James Wilson,Male,23,3.3,Computer Science,Mobile App Development,Android App,Mobile App Developer
+10,Olivia Clark,Female,22,3.5,Computer Science,Computer Graphics,3D Rendering,Graphics Programmer
+11,Andrew Hall,Male,21,3.8,Computer Science,Artificial Intelligence,Natural Language Processing,NLP Research Scientist
+12,Emma White,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Analyst
+13,Matthew Taylor,Male,22,3.7,Computer Science,Web Development,Front-End Development,Front-End Developer
+14,Sophia Adams,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Cybersecurity Consultant
+15,David Smith,Male,24,3.6,Computer Science,Machine Learning,Reinforcement Learning,Machine Learning Research Scientist
+16,Isabella Martin,Female,23,3.5,Computer Science,Software Development,Mobile App Development,Full-Stack Developer
+17,Ethan Lee,Male,21,3.7,Computer Science,Database Management,NoSQL Database Design,Database Architect
+18,Charlotte Allen,Female,22,3.3,Computer Science,Cloud Computing,DevOps,DevOps Engineer
+19,Logan Johnson,Male,20,3.8,Computer Science,Artificial Intelligence,Computer Vision,Computer Vision Engineer
+20,Mia Davis,Female,21,3.6,Computer Science,Web Development,E-commerce Platform,Web Developer
+21,Samuel Smith,Male,24,3.7,Computer Science,Data Science,Data Warehousing,Data Warehouse Architect
+22,Oliver Wilson,Male,22,3.5,Computer Science,Software Development,Mobile Game Development,Game Developer
+23,Sophia Clark,Female,21,3.9,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+24,Amelia Brown,Female,22,3.4,Computer Science,Cybersecurity,Penetration Testing,Ethical Hacker
+25,William Martin,Male,23,3.6,Computer Science,Artificial Intelligence,Robotics,Robotics Engineer
+26,Elizabeth White,Female,20,3.2,Computer Science,Web Development,E-commerce Backend,Backend Developer
+27,Nathan Davis,Male,21,3.7,Computer Science,Database Management,Big Data,Database Architect
+28,Isabella Lee,Female,24,3.3,Computer Science,Cloud Computing,Cloud Security,Cloud Security Analyst
+29,Ethan Anderson,Male,22,3.8,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+30,Olivia Johnson,Female,23,3.5,Computer Science,Computer Graphics,3D Modeling,3D Artist
+31,Michael Davis,Male,21,3.6,Computer Science,Data Science,Machine Learning,Data Scientist
+32,Ava Wilson,Female,22,3.7,Computer Science,Software Development,Game Development,Game Programmer
+33,James Brown,Male,20,3.4,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+34,Charlotte Smith,Female,21,3.8,Computer Science,Web Development,Web Security,Web Security Specialist
+35,Liam Clark,Male,24,3.9,Computer Science,Database Management,Database Security,Database Security Expert
+36,Amelia Lee,Female,23,3.2,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+37,Noah Davis,Male,22,3.7,Computer Science,Mobile App Development,Cross-Platform App Development,App Developer
+38,Sophia Harris,Female,20,3.5,Computer Science,Machine Learning,Computer Vision,Computer Vision Scientist
+39,Matthew Smith,Male,21,3.6,Computer Science,Artificial Intelligence,Deep Learning,Deep Learning Engineer
+40,Olivia Johnson,Female,22,3.8,Computer Science,Web Development,Full-Stack Web App,Web Developer
+41,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+42,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+43,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+44,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+45,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+46,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+47,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+48,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+49,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+50,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+51,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+52,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+53,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+54,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+55,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+56,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+57,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+58,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+59,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+60,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+61,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+62,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+63,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+64,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+65,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+66,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+67,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+68,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+69,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+70,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+71,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+72,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+73,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+74,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+75,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+76,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+77,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+78,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+79,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+80,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+81,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+82,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+83,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+84,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+85,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+86,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+87,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+88,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+89,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+90,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+91,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+92,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+93,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+94,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+95,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+96,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+97,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+98,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+99,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+100,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+101,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+102,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+103,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+104,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+105,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+106,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+107,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+108,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+109,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+110,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+111,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+112,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+113,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+114,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+115,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+116,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+117,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+118,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+119,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+120,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+121,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+122,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+123,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+124,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+125,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+126,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+127,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+128,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+129,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+130,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+131,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+132,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+133,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+134,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+135,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+136,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+137,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+138,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+139,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+140,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+141,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+142,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+143,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+144,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+145,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+146,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+147,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+148,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+149,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+150,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+151,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+152,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+153,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+154,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+155,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+156,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+157,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+158,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+159,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+160,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+161,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+162,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+163,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+164,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+165,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+166,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+167,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+168,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+169,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+170,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+171,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+172,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+173,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+174,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+175,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+176,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+177,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+178,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+179,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+180,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+181,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+182,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+183,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+184,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+185,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+186,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+187,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+188,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+189,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+190,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+191,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+192,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+193,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+194,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+195,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+196,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+197,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+198,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+199,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+200,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+201,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+202,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+203,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+204,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+205,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+206,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+207,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+208,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+209,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+210,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+211,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+212,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+213,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+214,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+215,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+216,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+217,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+218,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+219,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+220,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+221,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+222,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+223,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+224,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+225,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+226,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+227,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+228,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+229,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+230,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+231,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+232,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+233,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+234,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+235,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+236,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+237,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+238,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+239,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+240,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+241,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+242,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+243,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+244,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+245,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+246,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+247,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+248,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+249,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+250,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+251,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+252,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+253,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+254,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+255,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+256,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+257,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+258,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+259,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+260,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect
+261,William Johnson,Male,23,3.5,Computer Science,Mobile App Development,Android App,Mobile App Developer
+262,Charlotte Davis,Female,22,3.6,Computer Science,Computer Graphics,3D Animation,Graphics Designer
+263,Michael Smith,Male,21,3.8,Computer Science,Artificial Intelligence,Machine Translation,AI Researcher
+264,Ava Wilson,Female,20,3.2,Computer Science,Data Science,Big Data Analysis,Data Scientist
+265,Oliver Davis,Male,22,3.7,Computer Science,Software Development,Game Development,Game Developer
+266,Isabella Martin,Female,21,3.9,Computer Science,Cybersecurity,Ethical Hacking,Security Consultant
+267,Ethan Clark,Male,23,3.4,Computer Science,Machine Learning,Natural Language Processing,NLP Engineer
+268,Sophia Lee,Female,22,3.5,Computer Science,Database Management,SQL Database Optimization,Database Architect
+269,Lucas Johnson,Male,20,3.7,Computer Science,Cloud Computing,Virtualization,Cloud Solutions Architect
+270,Olivia Davis,Female,21,3.6,Computer Science,Mobile App Development,iOS App Development,iOS Developer
+271,James Wilson,Male,23,3.8,Computer Science,Computer Graphics,3D Modeling,3D Artist
+272,Mia Smith,Female,22,3.7,Computer Science,Artificial Intelligence,Speech Recognition,Speech Recognition Engineer
+273,William Smith,Male,21,3.4,Computer Science,Artificial Intelligence,Reinforcement Learning,AI Research Scientist
+274,Emma Johnson,Female,20,3.2,Computer Science,Data Science,Predictive Analytics,Data Analyst
+275,James Davis,Male,22,3.7,Computer Science,Software Development,Mobile App Development,Software Engineer
+276,Olivia Wilson,Female,21,3.6,Computer Science,Cybersecurity,Network Penetration Testing,Cybersecurity Specialist
+277,Liam Martin,Male,23,3.3,Computer Science,Machine Learning,Computer Vision,Computer Vision Engineer
+278,Emily Clark,Female,22,3.9,Computer Science,Web Development,E-commerce Website,Front-End Developer
+279,Noah White,Male,20,3.8,Computer Science,Database Management,Data Warehousing,Database Administrator
+280,Sophia Anderson,Female,21,3.7,Computer Science,Cloud Computing,AWS Solutions,Cloud Architect

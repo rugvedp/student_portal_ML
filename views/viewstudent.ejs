@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>User Profile</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <style>
+        /* Custom CSS for animations */
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        .slide-in-left {
+            animation-name: slideInLeft;
+        }
+
+        .fade-in {
+            animation-name: fadeIn;
+        }
+        #cart-container{
+            overflow-x: auto;
+          }
+          #cart-container table{
+            border-collapse: collapse;
+            width: 60%;
+            table-layout: fixed;
+            white-space: nowrap;
+          }
+          #cart-container table thead{
+            font-weight: 700;
+          }
+          #cart-container table thead td{
+            background: gray;
+            border: none;
+            padding: 6px 0;
+          }
+          #cart-container table td{
+            border: 1px solid gray;
+            text-align: center;
+          }
+        
+          #cart-container table td:nth-child(1),
+          #cart-container table td:nth-child(2){
+            width: 200px;
+          }
+    </style>
+
+</head>
+<body class="bg-gray-100">
+
+    <div id="data-container" data-ejs-data="<%= JSON.stringify(studentboi) %>"></div>
+    
+    <!-- Navbar -->
+    <div class="dark:bg-gray-900">
+        <div>
+            <div class="relative">
+                <!-- For large screens -->
+                <div class="dark:bg-gray-900 bg-gray-50 px-6 py-9">
+                    <div class="container mx-auto flex items-center justify">
+                        <h1 class="md:w-2/12 cursor-pointer text-gray-800 dark:text-white" aria-label="the Crib.">
+                            <img class="dark:hidden" src="https://pvppcoe.ac.in/wp-content/uploads/2022/12/vslogo-1024x165.png" alt="logo">
+                           <img class="dark:block hidden" src="https://pvppcoe.ac.in/wp-content/uploads/2022/12/vslogo-1024x165.png" alt="logo">
+                        </h1>
+                        <ul class="hidden w-8/12 md:flex items-center justify-center space-x-10">
+                            <li>
+                                <a href="/" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Home</a>
+                            </li>
+                            <li>
+                                <a href="/students" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Students</a>
+                            </li>
+                            <li>
+                                <a href="/stats" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Stats</a>
+                            </li>
+                            <li>
+                                <a href="/test" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Take test</a>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Profile Header -->
+    <header class="bg-white shadow-lg p-6">
+        <div class="container mx-auto flex justify-center items-center">
+            <img src="<%=studentboi.qrlink%>" alt="User Avatar" class=" w-32 h-32 animated slide-in-left">
+        </div>
+        <h2 class="text-2xl font-semibold text-center mt-4 animated fade-in"><%=studentboi.name%></h2>
+        <p class="text-gray-600 text-center animated fade-in">DSE 2022-2023</p>
+    </header>
+
+    <!-- User Profile Info -->
+    <div class="container mx-auto mt-6 bg-white p-6 rounded-lg shadow-lg animated fade-in">
+        <h3 class="text-xl font-semibold mb-4 text-center">Student Information</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
+            <div>
+                <p><span class="font-semibold">Roll No:</span> <%=studentboi.rollno%> </p>
+                <p><span class="font-semibold">Email:</span> <%=studentboi.rollno%>@pvppcoe.ac.in</p>
+                <p><span class="font-semibold">Location:</span> Mumbai</p>
+            </div>  
+            <div>
+                <p><span class="font-semibold">SSC:</span> <%=studentboi.ssc%> </p>
+                <p><span class="font-semibold">Diploma:</span> <%=studentboi.diploma%> </p>
+                <p><span class="font-semibold">Degree:</span> NA</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="cart-container" class="container my-5">
+        <center>
+            <table width="100%" >
+                <thead><tr>
+                  <td>IA-1</td>
+                  <td>IA-2</td>
+                </tr></thead>
+                <tbody>
+                
+                  <tr>
+                    <td> <center><div id="IA1" style="width:auto; max-width:400px; height:300px; "></div></center></td>
+                    <td><center><div id="IA2" style="width:auto; max-width:400px; height:300px;"></div></center></td>
+                  </tr>
+                </tbody>
+              </table>
+        </center>
+
+      </section>
+
+<br><br>
+
+<script>
+var dataFromEJS = JSON.parse(document.getElementById('data-container').getAttribute('data-ejs-data'));
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(drawIA2);
+
+async function drawChart() {
+const data = google.visualization.arrayToDataTable([
+  ['Subjects', 'Marks' , { role: 'style' }],
+  ['CN',dataFromEJS.cn, "red"],
+  ['DWM',dataFromEJS.dwm, "orange"],
+  ['AI',dataFromEJS.ai, "gold"],
+  ['STAT-AI',dataFromEJS.statat, "green"],
+  ['WC',dataFromEJS.wc, "blue"]
+]);
+
+
+const options = {
+  title:'IA-1 Marks'
+};
+
+
+const chart1 = new google.visualization.ColumnChart(document.getElementById('IA1'));
+chart1.draw(data, options);
+
+}
+
+async function drawIA2() {
+const data = google.visualization.arrayToDataTable([
+  ['Subjects', 'Marks' , { role: 'style' }],
+  ['CN',20, "red"],
+  ['DWM',19, "orange"],
+  ['AI',18, "gold"],
+  ['STAT-AI',19, "greeen"],
+  ['WC',20, "blue"],
+]);
+
+const options = {
+  title:'IA-2 Marks'
+};
+
+
+const chart2 = new google.visualization.ColumnChart(document.getElementById('IA2'));
+chart2.draw(data, options);
+
+}
+</script>
+
+
+</body>
+</html>
