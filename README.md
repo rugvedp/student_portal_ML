@@ -24,7 +24,7 @@ This project aims to predict the future job/scope for students based on various 
 3. Run the main script to train the Random Forest model and make predictions:
 
     ```bash
-    python forest.py 
+    python app.py 
     ```
 
 4. Follow the instructions prompted by the script to input the student's information for prediction.
