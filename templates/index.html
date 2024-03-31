@@ -10,89 +10,13 @@
 
 </head>
 <body>
-    
-        
-    <!-- Navbar -->
-    <div class="dark:bg-gray-900">
-        <div>
-            <div class="relative">
-                <!-- For large screens -->
-                <div class="dark:bg-gray-900 bg-gray-50 px-6 py-9">
-                    <div class="container mx-auto flex items-center justify">
-                        <h1 class="md:w-2/12 cursor-pointer text-gray-800 dark:text-white" aria-label="the Crib.">
-                            <img class="dark:hidden" src="https://pvppcoe.ac.in/wp-content/uploads/2022/12/vslogo-1024x165.png" alt="logo">
-                           <img class="dark:block hidden" src="https://pvppcoe.ac.in/wp-content/uploads/2022/12/vslogo-1024x165.png" alt="logo">
-                        </h1>
-                        <ul class="hidden w-8/12 md:flex items-center justify-center space-x-10">
-                            <li>
-                                <a href="/" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Home</a>
-                            </li>
-                            <li>
-                                <a href="/students" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Students</a>
-                            </li>
-                            <li>
-                                <a href="/stats" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Stats</a>
-                            </li>
-                            <li>
-                                <a href="/test" class="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Take test</a>
-                            </li>
-                        </ul>    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <form action="/newstudent" method="post">
+    <form action="/predict" method="post">
     <div class=" h-96 w-full">
         <div class="w-full flex items-center justify-center my-12">
         
             <div class="absolute top-40 bg-white dark:bg-gray-800 shadow rounded py-16 lg:px-28 px-8">
                 <p class="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700 dark:text-white">New Student</p>
-                <!-- name & email  -->
-                <div class="md:flex items-center mt-12">
-                    <div class="md:w-72 flex flex-col">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Name</label>
-                        <input tabindex="0" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                    <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Email</label>
-                        <input tabindex="0" type="email" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100"/>
-                    </div>
-                </div>
-                <!-- roll no year sem    -->
-                <div class="md:flex items-center mt-8">
-                    <div class="md:w-72 flex flex-col">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Roll No</label>
-                        <input tabindex="0" role="input" type="string" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                    <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Year/SEM</label>
-                        <input tabindex="0" arial-label="eg. TE/V" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                </div>
-                <!-- ssc  diploma  hsc  -->
-                <div class="md:flex items-center mt-8">
-                    <div class="md:w-72 flex flex-col">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">SSC Marks</label>
-                        <input tabindex="0" role="input" type="number" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                    <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">12th / Diploma Marks</label>
-                        <input tabindex="0" arial-label="Please input country name" type="number" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                </div>
-                <!-- sem3 sem4   -->
-                <div class="md:flex items-center mt-8">
-                    <div class="md:w-72 flex flex-col">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">SEM 3 Percentage</label>
-                        <input tabindex="0" role="input" type="number" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                    <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
-                        <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">SEM 4 Percentage</label>
-                        <input tabindex="0" arial-label="Please input country name" type="number" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" />
-                    </div>
-                </div>  
                 <!-- python  -->
                 <div class="md:flex items-center mt-8">
                     <div class="md:w-auto flex flex-col">
