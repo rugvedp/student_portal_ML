@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suggestions</title>
+    <title>Display Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <br>
-    <center><h1>{{prediction_text}}</h1></center>
-    <br>
-</div>
 
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold text-purple-800 mb-6">Interest: {{ data.interest }}</h2>
+        <div class="space-y-4">
+            <h3 class="text-2xl font-bold text-blue-800 mb-2">Courses:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                {% for course in data.courses %}
+                <li class="text-gray-800">{{ course }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="space-y-4">
+            <h3 class="text-2xl font-bold text-green-800 mb-2">Books:</h3>
+            <ul class="mb-4">
+                {% for book in data.books %}
+                <li class="text-gray-800">
+                    <p class="font-semibold">{{ book.title }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="space-y-4">
+            <h3 class="text-2xl font-bold text-orange-800 mb-2">Publications:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                {% for publication in data.publications %}
+                <li class="text-gray-800">{{ publication }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-red-800 mb-8">YouTube Videos Related to {{ data.interest }}</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% for video in videos %}
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-indigo-800 mb-4">{{ video['title'] }}</h2>
+                <p class="text-gray-600 mb-2">Views: {{ video['views'] }}</p>
+                <p class="text-gray-600 mb-2">Duration: {{ video['duration'] }}</p>
+                <img src="{{ video['thumbnail'] }}" alt="Thumbnail" class="max-w-full h-auto rounded-lg shadow-md mb-4">
+                <a href="{{ video['url'] }}" class="text-blue-600 font-semibold hover:underline">Watch Video</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </body>
+
 </html>
+```
+
+Now, the book section only displays the title and author without the image.
