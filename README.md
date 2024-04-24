@@ -58,8 +58,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Feedback, bug reports, and contributions are welcome. Please feel free to [open an issue](https://github.com/rugvedp/student_portal_ML/issues) or submit a pull request.
 
 ## Support
-For any inquiries or support, please contact [your.email@example.com](mailto:rugvedboi50@gmail.com).
+For any inquiries or support, please contact [rugvedboi50@gmail.com](mailto:rugvedboi50@gmail.com).
 
 ---
-
-**Note:** Replace placeholders such as `rugvedp`, `rugvedboi50@gmail.com`, and update links according to your project's specifics.
